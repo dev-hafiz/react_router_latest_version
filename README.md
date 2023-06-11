@@ -43,11 +43,12 @@ npm run dev
 Step 1 : First of all, create a router folder under the src folder and then create a router.js file to create your initial route
 
 ```
+Folder Structure
 src
-└── router
-      ├── router.js
+├── router
+      └──router.js
 ```
-```js
+```javascript
 //past it into router.js file
 import { createBrowserRouter } from "react-router-dom";
 
@@ -59,9 +60,9 @@ export const router = createBrowserRouter([
 Now our inital router is created without path and element. Do not concern about it we will emplement all the feature later.
 
 
-After all, now it's time to import our intial route in App.jsx file wrapped with RouterProvider from react router dom
+After all, it's time to import our intial route in App.jsx file wrapped with RouterProvider from react router dom
 
-```js
+```javascript
 //past it into App.jsx file
 import { RouterProvider } from "react-router-dom";
 import "./App.css";
@@ -76,6 +77,17 @@ function App() {
 }
 
 export default App;
+```
+
+Step 2 : Right now we are ready to create multiple component for our application. As if, we can set the destination path of our component. We will create multiple component in our components folder which is already placed under the src folder
+
+```
+Folder Structure
+src
+├── components
+      └──Home.jsx
+      └──Foods.jsx
+      └──About.jsx
 ```
 
 
