@@ -42,18 +42,40 @@ npm run dev
 
 Step 1 : First of all, create a router folder under the src folder and then create a router.js file to create your initial route
 
-![Image Description](/src//tutorial_assets//router1.PNG)
-
-After create router folder and .js file then create an initial route in your route.js file
-
-![Image Description](/src//tutorial_assets//router2.PNG)
-
-After all, now your time to import your intial route in App.jsx file wrapped with RouterProvider from react router dom
-![Image Description](/src//tutorial_assets//router3.PNG)
-
-```txt
-src
-├── contacts.js
-├── index.css
-└── main.jsx
 ```
+src
+└── router
+      ├── router.js
+```
+```js
+//past it into router.js file
+import { createBrowserRouter } from "react-router-dom";
+
+export const router = createBrowserRouter([
+
+]);
+```
+
+Now our inital router is created without path and element. Do not concern about it we will emplement all the feature later.
+
+
+After all, now it's time to import our intial route in App.jsx file wrapped with RouterProvider from react router dom
+
+```js
+//past it into App.jsx file
+import { RouterProvider } from "react-router-dom";
+import "./App.css";
+import { router } from "./router/router";
+
+function App() {
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
+}
+
+export default App;
+```
+
+
