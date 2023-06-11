@@ -39,3 +39,14 @@ npm install react-router-dom
 npm run dev
 ```
 ## Follow these steps below ❗❗
+
+Step 1 : First of all, create a router folder under the src folder and then create a router.js file to create your initial route
+
+![Image Description](/src//tutorial_assets//router1.PNG)
+
+After create router folder and .js file then create an initial route in your route.js file
+
+![Image Description](/src//tutorial_assets//router2.PNG)
+
+After all, now your time to import your intial route in App.jsx file wrapped with RouterProvider from react router dom
+![Image Description](/src//tutorial_assets//router3.PNG)
