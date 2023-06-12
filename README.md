@@ -40,13 +40,13 @@ npm run dev
 ```
 ## Follow these steps below ❗❗
 
-Step 1 : First of all, create a router folder under the src folder and then create a router.js file to create your initial route
+Step 1: First of all, create a router folder under the src folder and then create a router.jsx file to create your initial route
 
 ```
 Folder Structure
 src
 ├── router
-      └──router.js
+      └── router.jsx
 ```
 ```javascript
 //past it into router.js file
@@ -60,7 +60,7 @@ export const router = createBrowserRouter([
 Now our inital router is created without path and element. Do not concern about it we will emplement all the feature later.
 
 
-After all, it's time to import our intial route in App.jsx file wrapped with RouterProvider from react router dom
+It's time to import our intial route in App.jsx file wrapped with RouterProvider from react router dom
 
 ```javascript
 //past it into App.jsx file
@@ -79,15 +79,91 @@ function App() {
 export default App;
 ```
 
-Step 2 : Right now we are ready to create multiple component for our application. As if, we can set the destination path of our component. We will create multiple component in our components folder which is already placed under the src folder
+Step 2: We are ready to create multiple component for our application. As if, we can set the destination path of our component. We will create multiple component in our components folder which is already placed under the src folder
 
 ```
 Folder Structure
 src
 ├── components
-      └──Home.jsx
-      └──Foods.jsx
-      └──About.jsx
+      └── Home.jsx
+      └── Foods.jsx
+      └── About.jsx
 ```
 
+Step 3: Create a Layout folder and Root.jsx file inside the Layout under the src folder. And create a header folder and Header.jsx for navigate one route to another route under the components folder.
+
+```
+Folder Structure
+src
+├── coponents
+        ├── Header
+│             └── Header.jsx
+├── Layout
+      └── Root.jsx
+```
+
+Now we have a multiple component for our application and header file to navigate one route to another route. 
+
+We will import header file inside the Root.jsx file and also import <Outlet /> from react-router-dom for that we can render all the children component inside the Root.jsx file.
+
+```javascript
+//Past it into Header.jsx file
+import { NavLink } from "react-router-dom";
+
+const Header = () => {
+  return (
+    <div>
+      <NavLink to="/home">Home</NavLink>
+      <NavLink to="/foods">Foods</NavLink>
+      <NavLink to="/about">Abouts</NavLink>
+    </div>
+  );
+};
+
+export default Header;
+
+```
+
+```javascript
+//Past it into Root.jsx file
+import { Outlet } from "react-router-dom";
+import Header from "../components/header/header";
+
+const Root = () => {
+  return (
+    <div>
+      <Header />
+      <Outlet />
+    </div>
+  );
+};
+
+export default Root;
+```
+And our router.jsx file look like
+
+```javascript
+//Past it into router.jsx file
+import { createBrowserRouter } from "react-router-dom";
+import Home from "../components/home/home";
+import Foods from "../components/foods/foods";
+import About from "../components/about/about";
+import Root from "../Layout/Root";
+
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "home", element: <Home /> },
+      { path: "foods", element: <Foods /> },
+      { path: "about", element: <About /> },
+    ],
+  },
+]);
+
+```
+
+Now we are successfully created components, Link and Nested Rotue using React Router DOM. 👏👏👏
 
