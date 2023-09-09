@@ -7,7 +7,7 @@ Recently, react-router dom has got an updated version that is 6.4 and brings som
 
 
 
-## Key Features of Updated React Router DOM
+## Key Features
 - Routers
 - Router Components
 - Route
@@ -38,9 +38,9 @@ npm install react-router-dom
 ```javascript
 npm run dev
 ```
-## Follow these steps below ❗❗
+## Follow the steps
 
-Step 1: First of all, create a router folder under the src folder and then create a router.jsx file to create your initial route
+Step 1: First of all, create a router folder under the src folder and then create a router.JSX file to create your initial route
 
 ```
 Folder Structure
@@ -49,7 +49,7 @@ src
       └── router.jsx
 ```
 ```javascript
-//past it into router.js file
+//past it into the router.js file
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
