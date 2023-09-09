@@ -13,8 +13,8 @@ Recently, react-router dom has got an updated version that is 6.4 and brings som
 - Route
 - Components
 - Hooks
-- Fetch Uitilities
-- Uitilities
+- Fetch Utilities
+- Utilities
 
 
 These are the remarkable features that highly represent the unique thinking of the community.
