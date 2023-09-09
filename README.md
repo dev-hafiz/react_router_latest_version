@@ -7,7 +7,7 @@ Recently, react-router dom has got an updated version that is 6.4 and brings som
 
 
 
-## Key Features of Updated React Router DOM
+## Key Features
 - Routers
 - Router Components
 - Route
