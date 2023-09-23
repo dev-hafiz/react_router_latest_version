@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
 ]);
 ```
 
-Now our initial router is created without path and element. Do not concern about it we will emplement all the feature later.
+Now our initial router is created without a path and element. Do not concern about it we will emplement all the feature later.
 
 
 It's time to import our initial route in App.jsx file wrapped with RouterProvider from react router dom
