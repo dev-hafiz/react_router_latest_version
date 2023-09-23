@@ -21,14 +21,8 @@ These are the remarkable features that highly represent the unique thinking of t
 
 
 ## Installation
-1. Create a new React App with Vite
-```javascript
-npm create vite@latest name-of-your-project -- --template react
-# follow prompts
-cd <your new project directory>
-npm install react-router-dom
-npm run dev
-```
+
+
 2. If you have an already react project, then just install react-router DOM
 Copy the command and past it into the terminal
 ```javascript
