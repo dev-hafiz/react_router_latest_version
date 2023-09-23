@@ -8,7 +8,13 @@ Recently, react-router dom has got an updated version that is 6.4 and brings som
 
 
 ## Key Features
-
+- Routers
+- Router Components
+- Route
+- Components
+- Hooks
+- Fetch Utilities
+- Utilities
 
 
 These are the remarkable features that highly represent the unique thinking of the react router community.
