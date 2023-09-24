@@ -141,10 +141,10 @@ const Root = () => {
 
 export default Root;
 ```
-And our router.jsx file look like
+And our router.jsx file looks like
 
 ```javascript
-//Past it into router.jsx file
+//Past it into the router.js file
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/home/home";
 import Foods from "../components/foods/foods";
