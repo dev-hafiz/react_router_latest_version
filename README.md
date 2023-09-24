@@ -96,7 +96,7 @@ Step 3: Create a Layout folder and Root.jsx file inside the Layout under the src
 ```
 Folder Structure
 src
-├── coponents
+├── components
         ├── Header
 │             └── Header.jsx
 ├── Layout
