@@ -103,7 +103,7 @@ src
       └── Root.js
 ```
 
-Now we have multiple component for our application and header file to navigate one route to another route. 
+Now we have multiple components for our application and header file to navigate one route to another route. 
 
 We will import the header file inside the Root.jsx file and also import <Outlet /> from react-router-dom for that we can render all the children component inside the Root.jsx file.
 
