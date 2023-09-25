@@ -141,7 +141,7 @@ const Root = () => {
 
 export default Root;
 ```
-And our router.jsx file looks like
+And our router.js file looks like
 
 ```javascript
 //Past it into the router.js file
