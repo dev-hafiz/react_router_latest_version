@@ -86,7 +86,7 @@ Step 2: We are ready to create multiple components for our application. As if, w
 Folder Structure
 src
 ├── components
-      └── Home.js
+      └── Home.jsx
       └── Foods.js
       └── About.js
 ```
