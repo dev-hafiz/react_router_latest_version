@@ -98,7 +98,7 @@ Folder Structure
 src
 ├── components
         ├── Header
-│             └── Header.js
+│             └── Header.jsx
 ├── Layout
       └── Root.js
 ```
