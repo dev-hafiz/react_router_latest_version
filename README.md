@@ -47,7 +47,7 @@ Step 1: First of all, create a router folder under the src folder and then creat
 Folder Structure
 src
 ├── router
-      └── router.js
+      └── router.jsx
 ```
 ```javascript
 //past it into the router.js file
