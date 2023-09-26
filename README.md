@@ -126,7 +126,7 @@ export default Header;
 ```
 
 ```javascript
-//Past it into Root.jsx file
+//Past it into Root.js file
 import { Outlet } from "react-router-dom";
 import Header from "../components/header/header";
 
