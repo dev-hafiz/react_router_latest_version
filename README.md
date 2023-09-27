@@ -3,7 +3,7 @@
 
 # Latest Version of React Router DOM 🚀🚀🚀
  
-Recently, react-router dom has got an updated version that is 6.4 and brings some new and easiest features that will really help to make a lightweight client-side rendering application.
+Recently, react-router dom has got an updated version that is 6.16.0 and brings some new and easiest features that will really help to make a lightweight client-side rendering application.
 
 
 
