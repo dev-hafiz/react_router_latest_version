@@ -41,7 +41,7 @@ npm run dev
 ```
 ## Follow the steps
 
-Step 1: First of all, create a router folder under the src folder and then create a router.JSX file to create your initial route
+Step 1: First of all, create a router folder under the src folder and then create a router.jsx file to create your initial route
 
 ```
 Folder Structure
