@@ -100,7 +100,7 @@ src
         ├── Header
 │             └── Header.jsx
 ├── Layout
-      └── Root.js
+      └── Root.jsx
 ```
 
 Now we have multiple components for our application and header file to navigate one route to another route. 
