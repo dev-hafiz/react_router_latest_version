@@ -50,7 +50,7 @@ src
       └── router.jsx
 ```
 ```javascript
-//past it into the router.js file
+//past it into the router.jsx file
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
