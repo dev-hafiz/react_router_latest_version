@@ -108,7 +108,7 @@ Now we have multiple components for our application and header file to navigate 
 We will import the header file inside the Root.js file and also import <Outlet /> from react-router-dom for that we can render all the children components inside the Root.js file.
 
 ```javascript
-//Past it into the Header.js file
+//Past it into the Header.jsx file
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
