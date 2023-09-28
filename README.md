@@ -91,7 +91,7 @@ src
       └── About.js
 ```
 
-Step 3: Create a Layout folder and Root.jsx file inside the Layout under the src folder. Create a header folder and Header.jsx to navigate one route to another route under the components folder.
+Step 3: Create a Layout folder and Root.js file inside the Layout under the src folder. Create a header folder and Header.jsx to navigate one route to another route under the components folder.
 
 ```
 Folder Structure
