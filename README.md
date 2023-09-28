@@ -80,7 +80,7 @@ function App() {
 export default App;
 ```
 
-Step 2: We are ready to create multiple components for our application. As if, we can set the destination path of our component. We will create multiple component in our components folder which is already placed under the src folder
+Step 2: We are ready to create multiple components for our application. As if, we can set the destination path of our component. We will create multiple components in our components folder which is already placed under the src folder
 
 ```
 Folder Structure
