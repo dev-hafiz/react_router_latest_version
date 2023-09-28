@@ -87,7 +87,7 @@ Folder Structure
 src
 ├── components
       └── Home.js
-      └── Foods.jsx
+      └── Foods.js
       └── About.jsx
 ```
 
