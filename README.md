@@ -164,5 +164,6 @@ export const router = createBrowserRouter([
 ```
 
 
+Now we have successfully created components, Link and Nested Rotue using React Router DOM. 👏👏👏
 
 
