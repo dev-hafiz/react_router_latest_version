@@ -55,7 +55,6 @@ export const router = createBrowserRouter([
 
 ]);
 ```
-
 Now our initial router is created without a path and element. Do not be concerned about it we will implement all the features later.
 
 
