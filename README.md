@@ -17,7 +17,7 @@ Recently, react-router dom has got an updated version that is 6.16.0 and brings 
 
 
 
-These are the remarkable features that highly represent the unique thinking of the react-router community.
+These are the remarkable features that highly represent the unique thinking of the react-router community.These are the remarkable features that highly represent the unique thinking of the react-router community.
 
 
 ## Installation
