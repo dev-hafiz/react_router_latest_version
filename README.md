@@ -8,9 +8,8 @@ Recently, react-router dom has got an updated version that is 6.16.0 and brings 
 
 ## Key Features
 - Routers
-- - Router Components
+- Router Components
 
-- Route
 - Components
 - Hooks
 - Fetch Utilities
