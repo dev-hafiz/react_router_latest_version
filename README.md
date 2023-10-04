@@ -32,7 +32,6 @@ npm run dev
 2. If you have an already react project, then just install react-router DOM
 Copy the command and past it into the terminal
 
-
 ```javascript
 npm install react-router-dom
 ```
