@@ -19,6 +19,9 @@ These are the remarkable features that highly represent the unique thinking of t
 
 
 ## Installation
+1. Create a new React App with Vite
+
+
 
 
 ```javascript
