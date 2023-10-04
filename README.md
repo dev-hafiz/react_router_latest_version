@@ -22,7 +22,6 @@ These are the remarkable features that highly represent the unique thinking of t
 1. Create a new React App with Vite
 
 
-
 ```javascript
 npm create vite@latest name-of-your-project -- --template react
 # follow prompts
