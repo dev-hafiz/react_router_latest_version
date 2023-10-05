@@ -33,7 +33,10 @@ npm run dev
 Copy the command and past it into the terminal
 
 ```javascript
-npm install react-router-dom
+
+
+
+
 ```
 5. Start the server: 
 ```javascript
