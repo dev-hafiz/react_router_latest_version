@@ -36,6 +36,8 @@ Copy the command and past it into the terminal
 
 
 
+npm install react-router-dom
+
 
 ```
 5. Start the server: 
