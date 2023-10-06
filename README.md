@@ -65,7 +65,6 @@ It's time to import our initial route in the App.js file wrapped with RouterProv
 
 
 
-
 //past it into App.js file
 
 import { RouterProvider } from "react-router-dom";
