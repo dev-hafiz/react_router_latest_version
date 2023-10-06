@@ -62,7 +62,14 @@ Now our initial router is created without a path and element. Do not be concerne
 It's time to import our initial route in the App.js file wrapped with RouterProvider from react-router-dom
 
 ```javascript
-//past it into App.js file
+
+
+
+
+
+
+
+
 import { RouterProvider } from "react-router-dom";
 import "./App.css";
 import { router } from "./router/router";
